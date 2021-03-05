@@ -10,6 +10,8 @@ body{
     /* background-color: rgb(25, 25, 25);   */
     background-image: url('pexels-craig-adderley-1631899.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 .main-container{
