@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Poppins;
+}
+
+body{
+    /* background-color: rgb(25, 25, 25);   */
+    background-image: url('pexels-craig-adderley-1631899.jpg');
+    background-size: 100%;
+}
+
+.main-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: grid;
+    grid-template-columns: 75px auto auto auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+}
+
+.left-bar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.left-bar-img{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.header{
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    /* background-color: rgba(188, 143, 143, 0.24); */
+}
+
+.body{
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row-start: 3;
+    grid-row-end: 9;
+
+    /* background-color: rgba(250, 128, 114, 0.185); */
+}
+
+.dis{
+    filter: invert();
+    
+}
+
+.footer{
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row-start: 9;
+    grid-row-end: 11;
+
+    background-color: rgba(160, 81, 45, 0.301);
+}
+
+.left-bar-icons{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 11;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    align-items: center;
+}
+
+.imiv{
+    display: flex;
+    padding: 20px;
+    padding-top: 30px;
+    margin: 10px;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.nbar{
+    font-weight: 100;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.nbar:link{
+    color: white;
+    margin-left: 50px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nbar:visited{
+    color: white;
+    margin-left: 50px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nbar:hover{
+    color: white;
+    margin-left: 50px;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+.nbar:active{
+    color: white;
+    margin-left: 50px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.sign-up{
+    margin-right: 100px;
+}
+
+.button{
+    height: 35px;
+    cursor: pointer;
+    width: 90px;
+    color: rgba(25, 25, 25, 1);
+    border-radius: 2px;
+    background-color: yellow;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
+.button:link{
+    height: 35px;
+    width: 90px;
+    color: rgba(25, 25, 25, 1);
+    border-radius: 2px;
+    background-color: yellow;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
+.button:visited{
+    height: 35px;
+    width: 90px;
+    color: rgba(25, 25, 25, 1);
+    border-radius: 2px;
+    background-color: yellow;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
+.button:hover{
+    height: 35px;
+    width: 90px;
+    color: rgba(25, 25, 25, 1);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
+.button:active{
+    height: 35px;
+    width: 90px;
+    color: rgba(25, 25, 25, 1);
+    border-radius: 2px;
+    background-color: yellow;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
+#imiv-item{
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.text{
+    font-weight: 500;
+    margin-left: 30px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+b{
+    font-weight: 500;
+    color: yellow;
+}
+
+.explore{
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.area{
+    background-color: yellow;
+    height: 100em;
+    font-size: 13px;
+    padding: 15px;
+}
+
+
+.lbi{
+    cursor: pointer;
+}
+
+
+.area2{
+    background-color: rgb(0, 255, 255);
+    height: 100em;
+    font-size: 13px;
+    padding: 15px;
+}
+
+.area1{
+    background-color: rgb(0, 255, 255);
+    height: 100em;
+    width: 25ex;
+    font-size: 13px;
+    padding: 15px;
+}
+
+.textar{
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hrefa{
+    margin-left: 10px;
+    padding: 2px 4px;
+}
+
+.hrefa:link{
+    text-decoration: none;
+    color: black;
+}
+
+.hrefa:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.hrefa:hover{
+    text-decoration: none;
+    color: black;
+}
+.hrefan:active{
+    text-decoration: none;
+    color: black;
+}
+
+.foot-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+
+
